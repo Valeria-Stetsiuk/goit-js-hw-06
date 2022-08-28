@@ -1,5 +1,5 @@
-let input = document.querySelector('#name-input');
-let nameOutput = document.querySelector('#name-output');
+const input = document.querySelector('#name-input');
+const nameOutput = document.querySelector('#name-output');
 input.addEventListener('input', changeOutput);
 //value - текст введений користувачем
 function changeOutput() {

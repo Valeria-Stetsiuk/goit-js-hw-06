@@ -6,7 +6,7 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 btnRandomColor.addEventListener('click', onChangeBackground);
-function onChangeBackground(evt) {
+function onChangeBackground() {
   const newColor = getRandomHexColor();
   body.style.backgroundColor = newColor;
   spanColor.textContent = newColor;

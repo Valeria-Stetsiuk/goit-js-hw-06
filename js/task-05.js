@@ -4,8 +4,8 @@ input.addEventListener('input', changeOutput);
 
 function changeOutput() {
   if (input.value === '') {
-    nameOutput.innerHTML = 'Anonymous';
+    nameOutput.textContent = 'Anonymous';
   } else {
-    nameOutput.innerHTML = input.value;
+    nameOutput.textContent = input.value;
   }
 }
